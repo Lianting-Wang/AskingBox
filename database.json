@@ -1,0 +1,7 @@
+{
+	"dbhost" : "localhost",
+	"dbuser" : "",
+	"dbpass" : "",
+	"dbexist" : 1,
+	"tbexist" : 1
+}

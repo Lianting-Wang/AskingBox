@@ -1,0 +1,126 @@
+body {
+	margin: 0;
+	background-color: #68b2a0;
+}
+
+.main1 {
+	margin: 100px auto 0;
+	width: 80%;
+	position: relative;
+	min-height: 232px;
+	padding: 109px 4% 132px;
+	background-color: #fff;
+	border-radius: 15px 15px 0 0;
+
+	display: flex;
+	align-items:center;
+	justify-content:center;
+
+	animation-name:appear;
+	animation-duration:1s;
+}
+
+.main1_1 {
+	margin: -2px auto 0;
+	width: 80%;
+	position: relative;
+	height: 250px;
+	padding: 0px 4% 0px;
+	background-color: #fff;
+	border-radius: 0 0 15px 15px;
+
+	animation-name:appear;
+	animation-duration:1s;
+}
+
+.main1_2 {
+	width: 90%;
+	margin: 0 auto 0;
+	padding: 0 0 10px;
+	border-top: 2px solid #ddd;
+
+	display: flex;
+	align-items:center;
+	justify-content:center;
+
+	animation-name:appear_1;
+	animation-duration:1s;
+}
+
+.main1_2 p {
+	font-size: 30px;
+	font-weight:900;
+	text-align: center;
+	color: #999;
+	letter-spacing: 9px;
+	line-height: 150%;
+
+	animation-name:appear_3;
+	animation-duration:2s;	
+}
+
+.main1 p {
+	width: 90%;
+	margin: -35px 0 -4px;
+	text-align: center;
+	font-size: 36px;
+
+	animation-name:appear_2;
+	animation-duration:1.5s;
+}
+
+.date {
+	position: absolute;
+	bottom: 23px;
+	left: 9%;
+	font-size: 20px;
+	color: #999;
+
+	animation-name:appear_3;
+	animation-duration:1.3s;
+}
+
+button {
+	display: block;
+	width:90%;
+	margin: 0 auto 0;
+	background-color:#2c6975;
+	color:white;
+	padding:10px 20px;
+	border-radius:35px;
+	border:none;
+	cursor:pointer;
+	outline:none;
+	font-size:25px;
+
+	animation-name:appear_4;
+	animation-duration:2s;
+}
+
+@keyframes appear {
+	from {opacity: 0; filter: alpha(opacity=0)}
+	to {opacity: 1; filter: alpha(opacity=100)}
+}
+
+@keyframes appear_1 {
+	from {border-top: 2px solid #fff;}
+	to {border-top: 2px solid #ddd;}
+}
+
+@keyframes appear_2 {
+	0% {color: #fff;}
+	20% {color: #fff;}
+	80% {color: #000;}
+}
+
+@keyframes appear_3 {
+	0% {color: #fff;}
+	45% {color: #fff;}
+	80% {color: #999;}
+}
+
+@keyframes appear_4 {
+	0% {opacity: 0; filter: alpha(opacity=0)}
+	65% {opacity: 0; filter: alpha(opacity=0)}
+	90% {opacity: 1; filter: alpha(opacity=100)}
+}

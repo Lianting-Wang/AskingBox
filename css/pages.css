@@ -1,0 +1,182 @@
+body {
+	margin: 0;
+	padding-top: 70px; 
+	background-color: #68b2a0;
+}
+
+.main1 {
+	margin: 30px auto 0;
+	width: 80%;
+	position: relative;
+	min-height: 169px;
+	padding: 80px 4% 126px;
+	background-color: #fff;
+	border-radius: 15px;
+
+	display: flex;
+	align-items:center;
+	justify-content:center;
+
+	animation-name:appear_1;
+	animation-duration:1.4s;
+}
+
+.main1 p {
+	text-align: center;
+	margin: -10px 0 -10px;
+	font-size: 36px;
+}
+
+.main1_1 {
+	position: relative;
+	margin: 30px auto 0;
+	width: 80%;
+	min-height: 325px;
+	padding: 23px 4% 285px;
+	background-color: #fff;
+	border-radius: 15px;
+
+	animation-name:appear_2;
+	animation-duration:1.4s;
+}
+
+.profile {
+	display: inline-block;
+	height: 80px;
+	width: 80px;
+	background: url(../profile);
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 30%;
+}
+
+.name {
+	display: inline-block;
+	position: relative;
+	top: -14px;
+	right: -2px;
+	font-size: 35px;
+	font-weight: 200;
+	color: black;
+}
+
+.main1_1 p {
+	margin: 30px 0 10px 6%;
+	font-size: 36px;
+}
+
+.main1_1 span {
+	margin: 35px 7% 10px;
+	float: right;
+	font-size: 23px;
+	color: #999;
+}
+
+button {
+	position: absolute;
+	bottom: 35px;
+	left: 37%;
+	width: 26%;
+	font-size:27px;
+	font-weight: 500;
+
+	background-color:#000;
+	color:white;
+	padding:9px 0;
+	border-radius:35px;
+	border:none;
+	cursor:pointer;
+	outline:none;
+}
+
+.date {
+	position: absolute;
+	bottom: 23px;
+	left: 5%;
+	font-size: 20px;
+	color: #999;
+}
+
+.receiving {
+	text-align: center;
+	color: #222;
+	font-size: 30px;
+	margin-top: 100px;
+
+	animation-name:appear_3;
+	animation-duration:1.4s;
+}
+
+.lift-time {
+	position: absolute;
+	left: 36px;
+	top: 19px;
+	font-size: 18px;
+	color: #888;
+}
+
+.right-icon {
+	position: absolute;
+	right: 27px;
+	bottom: 13px;
+}
+
+.right-up {
+	position: absolute;
+	right: 20px;
+	top: 13px;
+	color: #350808;
+	font-size: 20px;
+	font-weight: 100;
+}
+.right-up svg {
+	position: relative;
+	right: -1px;
+	top: 3.5px;
+}
+
+@keyframes disappear {
+	from {opacity: 1; filter: alpha(opacity=100)}
+	to {opacity: 0; filter: alpha(opacity=0)}
+}
+
+@keyframes appear_1 {
+	from {opacity: 0; filter: alpha(opacity=0)}
+	to {opacity: 1; filter: alpha(opacity=100)}
+}
+
+@keyframes appear_2 {
+	0% {opacity: 0; filter: alpha(opacity=0)}
+	12.69% {opacity: 0; filter: alpha(opacity=0)}
+	100% {opacity: 1; filter: alpha(opacity=100)}
+}
+
+@keyframes appear_3 {
+	0% {opacity: 0; filter: alpha(opacity=0)}
+	35.71% {opacity: 0; filter: alpha(opacity=0)}
+	100% {opacity: 1; filter: alpha(opacity=100)}
+}
+
+@keyframes appear_4 {
+	0% {opacity: 0; filter: alpha(opacity=0)}
+	58.33% {opacity: 0; filter: alpha(opacity=0)}
+	100% {opacity: 1; filter: alpha(opacity=100)}
+}
+
+@keyframes appear_5 {
+	0% {opacity: 0; filter: alpha(opacity=0)}
+	69.04% {opacity: 0; filter: alpha(opacity=0)}
+	100% {opacity: 1; filter: alpha(opacity=100)}
+}
+
+@keyframes appear_6 {
+	0% {opacity: 0; filter: alpha(opacity=0)}
+	88.88% {opacity: 0; filter: alpha(opacity=0)}
+	100% {opacity: 1; filter: alpha(opacity=100)}
+}
+
+@keyframes appear_7 {
+	0% {opacity: 0; filter: alpha(opacity=0)}
+	96% {opacity: 0; filter: alpha(opacity=0)}
+	100% {opacity: 1; filter: alpha(opacity=100)}
+}
